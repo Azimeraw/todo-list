@@ -1,0 +1,33 @@
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(116, 115, 123) 0%,
+    rgb(240, 246, 243) 100%
+  );
+}
+.task-app {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background: #96a6f0;
+  min-height: 600px;
+  text-align: center;
+  margin: 135px auto;
+  border-radius: 10px;
+  padding-bottom:40px;
+}
+.complete {
+  text-decoration: line-through #000;
+  color: #808080;
+  opacity: 0.3;
+}
+
+.task-input::placeholder {
+  color: #000;
+}
+.task-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
